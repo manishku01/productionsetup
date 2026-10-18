@@ -6,7 +6,7 @@ import App from "./App.jsx";
 describe("App", () => {
   it("renders the app message", () => {
     expect(renderToStaticMarkup(createElement(App))).toBe(
-      "<p>This is message to test commit lint.</p>",
+      "<p>This is Hello message.</p>",
     );
   });
 });
